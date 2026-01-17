@@ -1,0 +1,59 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+build
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.docker
+
+# Database files (for SQLite development)
+.tmp
+*.db
+*.db-journal
+
+# Documentation
+README.md
+CHANGELOG.md
+LICENSE
+license.txt
+
+# Tests
+__tests__
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+coverage
+
+# Misc
+.editorconfig
+.eslintrc*
+.prettierrc*
+tsconfig.tsbuildinfo

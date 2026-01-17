@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "herosections",
+  "info": {
+    "singularName": "herosection",
+    "pluralName": "herosections",
+    "displayName": "Herosection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Header": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Subheader": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
