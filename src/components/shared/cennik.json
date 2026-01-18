@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_cenniks",
+  "info": {
+    "displayName": "Cennik",
+    "icon": "strikeThrough"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "string"
+    },
+    "price2": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

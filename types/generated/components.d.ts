@@ -1,5 +1,20 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface SharedCennik extends Struct.ComponentSchema {
+  collectionName: 'components_shared_cenniks';
+  info: {
+    displayName: 'Cennik';
+    icon: 'strikeThrough';
+  };
+  attributes: {
+    Description: Schema.Attribute.String;
+    price: Schema.Attribute.String;
+    price2: Schema.Attribute.String;
+    Text: Schema.Attribute.String;
+    Title: Schema.Attribute.String;
+  };
+}
+
 export interface SharedCta extends Struct.ComponentSchema {
   collectionName: 'components_shared_ctas';
   info: {
@@ -76,6 +91,7 @@ export interface SharedSlider extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'shared.cennik': SharedCennik;
       'shared.cta': SharedCta;
       'shared.media': SharedMedia;
       'shared.quote': SharedQuote;

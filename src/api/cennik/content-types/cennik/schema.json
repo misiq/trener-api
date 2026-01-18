@@ -16,6 +16,11 @@
     },
     "Text": {
       "type": "blocks"
+    },
+    "Ceny": {
+      "type": "component",
+      "component": "shared.cennik",
+      "repeatable": true
     }
   }
 }
