@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "hemas",
+  "info": {
+    "singularName": "hema",
+    "pluralName": "hemas",
+    "displayName": "Hema"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "blocks"
+    }
+  }
+}

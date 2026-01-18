@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "porozmawiajmies",
+  "info": {
+    "singularName": "porozmawiajmy",
+    "pluralName": "porozmawiajmies",
+    "displayName": "Porozmawiajmy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "cenniks",
+  "info": {
+    "singularName": "cennik",
+    "pluralName": "cenniks",
+    "displayName": "Cennik"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "blocks"
+    }
+  }
+}

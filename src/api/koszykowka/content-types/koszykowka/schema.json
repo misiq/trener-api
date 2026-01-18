@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "koszykowkas",
+  "info": {
+    "singularName": "koszykowka",
+    "pluralName": "koszykowkas",
+    "displayName": "Koszykówka"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "blocks"
+    },
+    "Text2": {
+      "type": "blocks"
+    }
+  }
+}

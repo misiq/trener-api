@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "trening_onlines",
+  "info": {
+    "singularName": "trening-online",
+    "pluralName": "trening-onlines",
+    "displayName": "TreningOnline"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "blocks"
+    }
+  }
+}

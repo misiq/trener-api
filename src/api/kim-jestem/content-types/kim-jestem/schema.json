@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "kim_jestems",
+  "info": {
+    "singularName": "kim-jestem",
+    "pluralName": "kim-jestems",
+    "displayName": "KimJestem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "blocks"
+    }
+  }
+}
